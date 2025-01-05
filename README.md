@@ -82,7 +82,7 @@ To get a local copy up and running follow these simple example steps.
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Make sure you have the above packages installed. 
-  ```sh
+   ```sh
    pip install TensorFlow Pandas Numpy Matplotlib
    ```
 2. Clone the repo
