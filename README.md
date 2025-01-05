@@ -33,26 +33,26 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 
 This project is a basic stock markey predictor. It is a good intro into how to use LSTMs. We create a simple LSTM that uses the closing price of the trailing 3 days to predict the closing price of the current day (Target Date). It currently runs on Microsoft's Stock Market Data, but can be easily configured to run on any CSV file. 
 
 ### Results: 
 
 #### Training, Validation, and Test Data Splits
-[![Data Splits][data-splits]]
+![Data Splits][data-splits]
 
 #### Training Results
-[![Training Results][training-results]]
+![Training Results][training-results]
 
 #### Validation Results
-[![Validation Results][validation-results]]
+![Validation Results][validation-results]
 
 #### Overall Results
-[![Overall Results][Overall-results]]
+![Overall Results][Overall-results]
 
 #### Recursive Results
-[![Recursive Results][Recursive-results]]
+![Recursive Results][Recursive-results]
 
 For such a simple LSTM that only uses one variable, the results are not bad. However, do not use this to make real stock market trades, as this is partially overfitted for Microsoft's data. We can also see that the recursive predictions do not really work well with this LSTM, as they are generally bad at extrapolating data. 
 
