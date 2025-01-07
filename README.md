@@ -18,9 +18,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Usage">Usage</a></li>
     <li><a href="#Contributing">Contributing</a></li>
     <li><a href="#Contact">Contact</a></li>
+    <li><a href="#next-steps">Next Steps</a></li>
     <li><a href="#Additional Resources">Additional Resources</a></li>
   </ol>
 </details>
@@ -32,7 +32,7 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-This project is a basic stock markey predictor. It is a good intro into how to use LSTMs. We create a simple LSTM that uses the closing price of the trailing 3 days to predict the closing price of the current day (Target Date). It currently runs on Microsoft's Stock Market Data, but can be easily configured to run on any CSV file. 
+This project is a basic stock market predictor. It is a good intro into how to use LSTMs. We create a simple LSTM that uses the closing price of the trailing 3 days to predict the closing price of the current day (Target Date). It currently runs on Microsoft's Stock Market Data, but can be easily configured to run on any CSV file. 
 
 ### Results: 
 
@@ -79,8 +79,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
 1. Make sure you have the above packages installed. 
    ```sh
    pip install TensorFlow Pandas Numpy Matplotlib
@@ -96,18 +94,6 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -136,6 +122,11 @@ Rohan Chaturvedula - [Linkedin](https://www.linkedin.com/in/rohan-chaturvedula/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Next Steps
+
+- [ ] Build Multi-Variate LSTM
+- [ ] Apply Real-World Trading Techniques
+- [ ] Incorporate a Robust Trading Platform
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -153,8 +144,6 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/Stock.webp
 [data-splits]: images/dataSplits.png
 [training-results]: images/TrainingResults.png
